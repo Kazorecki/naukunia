@@ -1,0 +1,56 @@
+:root {
+  --light-blue: #3AB8FF;
+  --font-color: #505c75;
+  --dark-blue: #2F7EAC;
+  --content-bg: #1f242c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3F4B5D;
+  font-family: 'Ubuntu';
+}
+
+hr {
+  color: var(--light-blue);
+  border-color: var(--light-blue);
+  background-color: var(--light-blue);
+  height: 0.2rem;
+  border-radius: 25%;
+  text-align: center;
+  margin: 0 auto;
+  width: 5rem;
+}
+
+.header {
+  padding: 4em 1em;
+  background-color: var(--content-bg);
+  width: 100%;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #2F7EAC;
+}
+
+.title {
+  font-size: 3em;
+}
+
+.wrapper {
+  display: grid;
+  color: #505c75;
+  margin: 0 auto;
+  max-width: 65em;
+  line-height: 1.5em;
+  padding: 4em 1em;
+}
+
+.text {
+  padding: 1em 3em;
+  margin: 1em 0;
+  background-color: var(--content-bg);
+  border-radius: 1em;
+}
